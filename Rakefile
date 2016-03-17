@@ -15,7 +15,7 @@ Motion::Project::App.setup do |app|
   app.vendor_project :jar => "vendor/cardview-v7-23.2.1/classes.jar",
             :resources => "vendor/cardview-v7-23.2.1/res",
             :manifest => "vendor/cardview-v7-23.2.1/AndroidManifest.xml"
-  app.vendor_project :jar => "vendor/facebook-android-sdk-4.10.0/classes.jar",
+  app.vendor_project :jar => "vendor/facebook-android-sdk-4.10.0/fbclasses.jar",
             :resources => "vendor/facebook-android-sdk-4.10.0/res",
             :manifest => "vendor/facebook-android-sdk-4.10.0/AndroidManifest.xml"
 
