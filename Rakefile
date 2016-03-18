@@ -12,6 +12,7 @@ Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'fb_test'
 
+  app.vendor_project :jar => 'vendor/android-support-v4.jar'
   app.vendor_project :jar => "vendor/cardview-v7-23.2.1/classes.jar",
             :resources => "vendor/cardview-v7-23.2.1/res",
             :manifest => "vendor/cardview-v7-23.2.1/AndroidManifest.xml"
